@@ -4,20 +4,20 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "START"
+      label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmXw1AAkJFASvdWJVNcGv97nQKznyN58XeXo7H2SmNqUUR/0.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWSoYYbHfxQ64XT1jLmrkZ6eUtNX4hagbvWeGCmEYsFFV/0.jpg`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
   title: 'MICROSCOPE OR MASTERPIECE',
-  description: 'A frame telling the story of MICROSCOPE OR MASTERPIECE',
+  description: 'Is it a MICROSCOPE OR MASTERPIECE',
   openGraph: {
-    title: 'MICROSCOPE OR MASTERPIECE',
+    title: 'Is it a MICROSCOPE OR MASTERPIECE',
     description: 'A frame telling the story of MICROSCOPE OR MASTERPIECE',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmXw1AAkJFASvdWJVNcGv97nQKznyN58XeXo7H2SmNqUUR/0.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWSoYYbHfxQ64XT1jLmrkZ6eUtNX4hagbvWeGCmEYsFFV/0.jpg`],
   },
   other: {
     ...frameMetadata,

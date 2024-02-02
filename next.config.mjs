@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: '/pinatacloud',
-        destination: '<https://pinata.cloud/blog>',
+        destination: '<http://micromaster-new.vercel.app>',
         permanent: false
       }
     ]
